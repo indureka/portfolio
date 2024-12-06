@@ -4,35 +4,6 @@ import homeImage from '../assets/home.jpg';
 const Home = () => {
   return (
 
-
-//     <section id="home" className="relative bg-cover bg-center py-40" style={{ backgroundImage: "url('../assets/home.jpg')" }}>
-//   {/* Gradient overlay to enhance content visibility */}
-//   <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-60"></div>
-
-//   <div className="relative z-10 container mx-auto text-center text-white px-6">
-//     <h1 className="text-5xl font-bold leading-tight mb-4">
-//       Crafting Scalable Web Solutions for You
-//     </h1>
-//     <p className="mt-4 text-lg md:text-xl">
-//       A passionate MERN Stack Developer
-//     </p>
-//     {/* Call to Action Button */}
-//     <a
-//       href="#projects"
-//       className="mt-6 inline-block bg-blue-600 text-white py-3 px-8 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
-//     >
-//       View My Work
-//     </a>
-//   </div>
-// </section>
-
-
-// <section 
-//   id="home" 
-//   className="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 text-white text-center py-20 relative overflow-hidden"
-// > 
-
-
 <section
   id="home"
   className="relative bg-cover bg-center py-40"

@@ -2,14 +2,14 @@ import React from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// import 'swiper/swiper-bundle.min.css';
+
 
 import 'swiper/css'; // Basic Swiper styles
 
 import 'swiper/css/pagination'; // Optional for pagination
 import 'swiper/css/navigation'; // Optional for navigation
 
-// import { Autoplay } from 'swiper';
+
 
 const Skills = () => {
   return (

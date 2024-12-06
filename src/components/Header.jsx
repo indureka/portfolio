@@ -22,21 +22,6 @@ const Header = () => {
 };
 
 
-// const Header = () => {
-//   return (
-//     <header className="bg-white text-gray-950 p-5 shadow-md sticky top-0 z-50">
-//       <nav className="container mx-auto flex justify-between items-center">
-//         <a href="#home" className="text-2xl font-bold">Indureka V.A.</a>
-//         <ul className="flex space-x-6">
-//           <li><a href="#home" className="hover:text-yellow-500">Home</a></li>
-//           <li><a href="#about" className="hover:text-yellow-500">About Me</a></li>
-//           <li><a href="#skills" className="hover:text-yellow-500">Skills</a></li>
-//           <li><a href="#projects" className="hover:text-yellow-500">Projects</a></li>
-//           <li><a href="#resume" className="hover:text-yellow-500">Resume</a></li>
-//         </ul>
-//       </nav>
-//     </header>
-//   );
-// };
+
 
 export default Header;
