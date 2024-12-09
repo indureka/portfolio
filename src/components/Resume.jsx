@@ -25,7 +25,7 @@ const Resume = () => {
         <div className="relative inline-block group mt-4 mb-10">
           <a
             href={resumeLink}
-            download="Indureka_VA_Resume.pdf"
+            download="Indureka_VA_.pdf"
             className="relative z-10 text-lg font-light border border-orange-500  text-white py-4 px-10 rounded-lg hover:border-2 hover:border-orange-600"
           >
             Download Resume
