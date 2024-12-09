@@ -1,119 +1,214 @@
-import React from 'react';
-import projectOne from '../assets/project1.png'
-import projectTwo from '../assets/project2.png';
-import projectThree from '../assets/project3.png';
-
+import React from "react";
+import projectOne from "../assets/project_1.png";
+import projectTwo from "../assets/project_2.png";
+import projectThree from "../assets/project_3.png";
+import projectfour from "../assets/project_4.png";
+import AnimatedLine from "./AnimatedLine";
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-10 bg-white">
-      
-  <div className="container mx-auto text-center p-10">
-    <h2 className="text-4xl mt-10 font-semibold">My Projects</h2>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 px-6 py-10">
-    
-
-
-{/* Project 1 */}
-<div className=" p-6 rounded-lg bg-white border-2 border-slate-300 shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300">
-        <img 
-          src={projectThree}
-          alt="Frontend Design"
-          className="w-full h-64 object-cover rounded-lg transform hover:scale-105 transition-transform duration-300"
-        />
-        <h3 className="text-2xl font-semibold mt-4">Time Tracker</h3>
-        <p className="mt-2 text-gray-700">
-        The Time Tracker Application is a dynamic and user-friendly web tool designed to enhance productivity and time management.
-        </p>
-
-        <a 
-    href="https://lucent-entremet-1c50c9.netlify.app/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-[#041330] via-[#042f4f] to-[#055576] mt-4 mx-auto transition-transform duration-300 hover:scale-110"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      className="w-6 h-6 text-white"
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 11l4-4m0 0l-4-4m4 4H7"></path>
-    </svg>
-  </a>
-
+    <section id="projects" className="py-10">
+      <div className="container text-center p-10">
+        <h2 className="text-3xl text-white font-light mb-8 pl-10 flex items-center">
+          Projects I've done
+          <AnimatedLine />
+        </h2>
       </div>
 
+      {/* Project container grid*/}
 
+      <div className="container mx-auto py-6 px-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          {/* Project 1 */}
+          <div className="flex flex-wrap items-stretch bg-[#1a1a1a] rounded-lg shadow-lg border border-gray-900 overflow-hidden">
+            {/* left Hand Side (Image and Content) */}
+            <div className="flex-1 p-3">
+              {/* Image */}
+              <div className="w-full h-60 overflow-hidden mb-4">
+                <img
+                  src={projectOne}
+                  alt="Project"
+                  className="w-full h-full object-cover rounded-lg"
+                />
+              </div>
+              {/* Heading */}
+              <h3 className="uppercase text-3xl font-light text-orange-500 mb-2">
+                Time Tracker
+              </h3>
+              {/* Description */}
+              <p className="text-sm text-gray-300 leading-relaxed">
+                The Time Tracker Application is a dynamic and user-friendly web
+                tool designed to enhance productivity and time management.
+              </p>
+            </div>
 
+            {/* right Hand Side (Buttons) */}
+            <div className="flex flex-col justify-between p-2 w-30">
+              {/* Live Button */}
+              <div className="text-right">
+                <a
+                  href="https://lucent-entremet-1c50c9.netlify.app/"
+                  className="border-2 border-orange-500 text-white text-md font-light ml-4 w-24 h-24 rounded-full shadow-md flex items-center justify-center hover:border-orange-600 transition-colors duration-300"
+                >
+                  Live
+                </a>
+              </div>
+              {/* Source Code Button */}
+              <div className="text-right">
+                <a
+                  href="https://github.com/indureka/Time-Tracker.git"
+                  className=" text-gray-300 text-lg font-light px-2 py-2 rounded-md shadow-md hover:underline transition-colors duration-300"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
 
-      {/* Project 2 */}
-      <div className=" p-6 rounded-lg bg-white border-2 border-slate-300 shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300">
-        <img 
-          src={projectTwo}
-          alt="Frontend Design"
-          className="w-full h-64 object-cover rounded-lg transform hover:scale-105 transition-transform duration-300"
-        />
-        <h3 className="text-2xl font-semibold mt-4">Frontend Design</h3>
-        <p className="mt-2 text-gray-700">
-          The design was centered around a modern, responsive layout with a focus on user experience and aesthetics.
-        </p>
+          {/* Project 2 */}
+          <div className="flex flex-wrap items-stretch bg-[#1a1a1a] rounded-lg shadow-lg border border-gray-900 overflow-hidden">
+            {/* left Hand Side (Image and Content) */}
+            <div className="flex-1 p-3">
+              {/* Image */}
+              <div className="w-full h-60 overflow-hidden mb-4">
+                <img
+                  src={projectTwo}
+                  alt="Project"
+                  className="w-full h-full object-cover rounded-lg"
+                />
+              </div>
+              {/* Heading */}
+              <h3 className="uppercase text-3xl font-light text-orange-500 mb-2">
+                Landify
+              </h3>
+              {/* Description */}
+              <p className="text-sm text-gray-300 leading-relaxed">
+                A modern design institute website offering expert coaching in
+                technical skills. Inspiring creativity and innovation with
+                user-friendly layouts and engaging content.
+              </p>
+            </div>
 
-        <a 
-    href="https://lucent-entremet-1c50c9.netlify.app/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-[#041330] via-[#042f4f] to-[#055576] mt-4 mx-auto transition-transform duration-300 hover:scale-110"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      className="w-6 h-6 text-white"
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 11l4-4m0 0l-4-4m4 4H7"></path>
-    </svg>
-  </a>
+            {/* right Hand Side (Buttons) */}
+            <div className="flex flex-col justify-between p-2 w-30">
+              {/* Live Button */}
+              <div className="text-right">
+                <a
+                  href="https://golden-toffee-3512b7.netlify.app/"
+                  className="border-2 border-orange-500 text-white text-md font-light ml-4 w-24 h-24 rounded-full shadow-md flex items-center justify-center hover:border-orange-600 transition-colors duration-300"
+                >
+                  Live
+                </a>
+              </div>
+              {/* Source Code Button */}
+              <div className="text-right">
+                <a
+                  href="https://github.com/indureka/Landify.git"
+                  className=" text-gray-300 text-lg font-light px-2 py-2 rounded-md shadow-md hover:underline transition-colors duration-300"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
 
+          {/* Project 3 */}
+          <div className="flex flex-wrap items-stretch bg-[#1a1a1a] rounded-lg shadow-lg border border-gray-900 overflow-hidden">
+            {/* left Hand Side (Image and Content) */}
+            <div className="flex-1 p-3">
+              {/* Image */}
+              <div className="w-full h-60 overflow-hidden mb-4">
+                <img
+                  src={projectThree}
+                  alt="Project"
+                  className="w-full h-full object-cover rounded-lg"
+                />
+              </div>
+              {/* Heading */}
+              <h3 className="uppercase text-3xl font-light text-orange-500 mb-2">
+                Ask Me Identity
+              </h3>
+              {/* Description */}
+              <p className="text-sm text-gray-300 leading-relaxed">
+                A professional website offering top-notch coaching and resources
+                for mastering technical skills. Designed to inspire learning
+                with user-friendly navigation and modern aesthetics.
+              </p>
+            </div>
+
+            {/* right Hand Side (Buttons) */}
+            <div className="flex flex-col justify-between p-2 w-30">
+              {/* Live Button */}
+              <div className="text-right">
+                <a
+                  href="https://brilliant-hotteok-79c410.netlify.app/"
+                  className="border-2 border-orange-500 text-white text-md font-light ml-4 w-24 h-24 rounded-full shadow-md flex items-center justify-center hover:border-orange-600 transition-colors duration-300"
+                >
+                  Live
+                </a>
+              </div>
+              {/* Source Code Button */}
+              <div className="text-right">
+                <a
+                  href="https://github.com/indureka/AskmeID.git"
+                  className=" text-gray-300 text-lg font-light px-2 py-2 rounded-md shadow-md hover:underline transition-colors duration-300"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 4 */}
+          <div className="flex flex-wrap items-stretch rounded-lg shadow-lg border border-gray-900 overflow-hidden">
+            {/* left Hand Side (Image and Content) */}
+            <div className="flex-1 p-3">
+              {/* Image */}
+              <div className="w-full h-60 overflow-hidden mb-4">
+                <img
+                  src={projectfour}
+                  alt="Project"
+                  className="w-full h-full object-cover rounded-lg"
+                />
+              </div>
+              {/* Heading */}
+              <h3 className="uppercase text-3xl font-light text-orange-500 mb-2">
+                Memory Game
+              </h3>
+              {/* Description */}
+              <p className="text-sm text-gray-300 leading-relaxed">
+                A fun and interactive game where players match pairs of cards to
+                test their memory. Features responsive design, smooth
+                animations, and dynamic gameplay for endless entertainment.
+              </p>
+            </div>
+
+            {/* right Hand Side (Buttons) */}
+            <div className="flex flex-col justify-between p-2 w-30">
+              {/* Live Button */}
+              <div className="text-right">
+                <a
+                  href="https://stalwart-puppy-a69f9b.netlify.app"
+                  className="border-2 border-orange-500 text-white text-md font-light ml-4 w-24 h-24 rounded-full shadow-md flex items-center justify-center hover:border-orange-600 transition-colors duration-300"
+                >
+                  Live
+                </a>
+              </div>
+              {/* Source Code Button */}
+              <div className="text-right">
+                <a
+                  href="https://github.com/indureka/MemoryGame.git"
+                  className=" text-gray-300 text-lg font-light px-2 py-2 rounded-md shadow-md hover:underline transition-colors duration-300"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      {/* Project 3 */}
-      <div className="p-6 rounded-lg bg-white border-2 border-slate-300 shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300">
-        <img 
-          src={projectOne}
-          alt="Frontend Design"
-          className="w-full h-64 object-cover rounded-lg transform hover:scale-105 transition-transform duration-300"
-        />
-        <h3 className="text-2xl font-semibold mt-4">Frontend Design</h3>
-        <p className="mt-2 text-gray-700">
-          The design was centered around a modern, responsive layout with a focus on user experience and aesthetics.
-        </p>
-        <a 
-    href="https://lucent-entremet-1c50c9.netlify.app/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-[#041330] via-[#042f4f] to-[#055576] mt-4 mx-auto transition-transform duration-300 hover:scale-110"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      className="w-6 h-6 text-white"
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 11l4-4m0 0l-4-4m4 4H7"></path>
-    </svg>
-  </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-  )
-}
-
-
+    </section>
+  );
+};
 
 export default Projects;
