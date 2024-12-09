@@ -2,7 +2,7 @@ import React from "react";
 import projectOne from "../assets/project_1.png";
 import projectTwo from "../assets/project_2.png";
 import projectThree from "../assets/project_3.png";
-import projectfour from "../assets/project_4.png";
+import projectFour from "../assets/project_4.png";
 import AnimatedLine from "./AnimatedLine";
 
 const Projects = () => {
@@ -166,7 +166,7 @@ const Projects = () => {
               {/* Image */}
               <div className="w-full h-60 overflow-hidden mb-4">
                 <img
-                  src={projectfour}
+                  src={projectFour}
                   alt="Project"
                   className="w-full h-full object-cover rounded-lg"
                 />
