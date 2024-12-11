@@ -2,7 +2,7 @@ import React from "react";
 import AnimatedLine from "./AnimatedLine";
 
 const Resume = () => {
-  const resumeLink = "/src/assets/indureka_VA_resume.pdf"; // Provide the correct path
+  const resumeLink = "/assets/indureka_VA_resume.pdf"; // Provide the correct path
 
   return (
     <section id="resume" className="py-10 text-center text-white">
