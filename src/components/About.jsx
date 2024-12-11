@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "../assets/indu-pic.png";
+import indupic from "../assets/indu-pic.png";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import AnimatedLine from "./AnimatedLine";
 
@@ -16,7 +16,7 @@ const About = () => {
           <div className="flex flex-col items-center w-2/12">
             <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg mb-4 border-2 border-orange-500">
               <img
-                src={aboutImage}
+                src={indupic}
                 alt="Your Name"
                 className="w-full h-full bg-white  object-cover"
               />
