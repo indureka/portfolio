@@ -6,6 +6,7 @@ import project_4 from "../assets/project_4.png"
 import AnimatedLine from "./AnimatedLine";
 
 const Projects = () => {
+  
   return (
     <section id="projects" className="py-10">
       <div className="container text-center p-10">
