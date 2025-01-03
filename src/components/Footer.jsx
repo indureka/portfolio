@@ -12,14 +12,14 @@ const Footer = () => {
               "Crafting solutions with creativity and precision."
             </p>
             <p className="text-sm font-light text-gray-100 leading-relaxed my-4">
-              You can view more of my projects on
+              You can view more of my projects on 
               <a
                 href="https://github.com/indureka"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange-500 text-base hover:text-orange-600 hover:underline"
               >
-                GitHub
+                &nbsp;GitHub
               </a>
             </p>
           </div>

@@ -1,8 +1,9 @@
 import React from "react";
-import project_1 from "../assets/project_1.png"
-import project_2 from "../assets/project_2.png"
-import project_3 from "../assets/project_3.png"
-import project_4 from "../assets/project_4.png"
+import projectOne from "../assets/project_1.png"
+// import projectOne from "../assets/project_1.png"
+import projectTwo from "../assets/project_2.png"
+import projectThree from "../assets/project_3.png"
+import projectFour from "../assets/project_4.png"
 import AnimatedLine from "./AnimatedLine";
 
 const Projects = () => {
@@ -27,7 +28,7 @@ const Projects = () => {
               {/* Image */}
               <div className="w-full h-60 overflow-hidden mb-4">
                 <img
-                  src={project_1}
+                  src= {projectOne}
                   alt="Project"
                   className="w-full h-full object-cover rounded-lg"
                 />
@@ -73,7 +74,7 @@ const Projects = () => {
               {/* Image */}
               <div className="w-full h-60 overflow-hidden mb-4">
                 <img
-                  src={project_2}
+                  src={projectTwo}
                   alt="Project"
                   className="w-full h-full object-cover rounded-lg"
                 />
@@ -120,7 +121,7 @@ const Projects = () => {
               {/* Image */}
               <div className="w-full h-60 overflow-hidden mb-4">
                 <img
-                  src={project_3}
+                  src={projectThree}
                   alt="Project"
                   className="w-full h-full object-cover rounded-lg"
                 />
@@ -167,7 +168,7 @@ const Projects = () => {
               {/* Image */}
               <div className="w-full h-60 overflow-hidden mb-4">
                 <img
-                  src={project_4}
+                  src={projectFour}
                   alt="Project"
                   className="w-full h-full object-cover rounded-lg"
                 />
